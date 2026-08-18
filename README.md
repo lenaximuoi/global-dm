@@ -62,7 +62,7 @@ docs/              architecture notes
 
 ## Design notes
 
-See [Architecture](docs/ARCHITECTURE.md) for the component boundaries and trade-offs, [interview notes](docs/INTERVIEW_NOTES.md) for a concise technical debrief, and the [demo script](docs/DEMO_SCRIPT.md) for a walkthrough.
+See [Architecture](docs/ARCHITECTURE.md) for the component boundaries and trade-offs.
 
 ## Next steps
 
