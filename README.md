@@ -62,7 +62,7 @@ docs/              architecture notes
 
 ## Design notes
 
-See [Architecture](docs/ARCHITECTURE.md) for the component boundaries and trade-offs.
+See [Architecture](ARCHITECTURE.md) for the component boundaries and trade-offs.
 
 ## Next steps
 
