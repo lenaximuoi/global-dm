@@ -1,0 +1,112 @@
+{
+  "cities": {
+    "san_francisco": {
+      "name": "San Francisco",
+      "is_start": true,
+      "is_hometown": false,
+      "theme": "Venture capitalism, tech hustle, high pressure, existential ambition.",
+      "base_attribute_shifts": {"ambition": 20, "burnout": 25, "capital": 15},
+      "signature_items": ["Pitch Deck", "Espresso Cup"],
+      "sequence_rules": {
+        "default": "Focus on late-night pitch deck revisions, startup competition, and high living costs."
+      }
+    },
+    "saigon": {
+      "name": "Saigon",
+      "is_start": false,
+      "is_hometown": true,
+      "theme": "Roots, family expectations, nostalgia, street food, returning home.",
+      "base_attribute_shifts": {"belonging": 30, "burnout": -20, "ambition": -10},
+      "signature_items": ["Family Recipe Book", "Jade Ring"],
+      "sequence_rules": {
+        "from_san_francisco": "Family expresses relief at your return, but immediately asks why you haven't bought a home or gotten married yet.",
+        "from_berlin": "Your wild, bohemian lifestyle choices clash heavily with your family's conservative traditional expectations.",
+        "from_london": "Your distant, formal demeanor breaks down under the warmth of street food vendors and childhood memories."
+      }
+    },
+    "taipei": {
+      "name": "Taipei",
+      "is_start": false,
+      "is_hometown": false,
+      "theme": "Mindfulness, night market culture, quiet healing, craft coffee, misty mountains.",
+      "base_attribute_shifts": {"burnout": -15, "creativity": 15, "belonging": 10},
+      "signature_items": ["Tea Set", "Ceramic Amulet"],
+      "sequence_rules": {
+        "from_san_francisco": "The sudden drop in pacing feels strange; night market conversations force you to slow down and reflect.",
+        "from_seoul": "Transitioning from hyper-competitive status loops into Taipei's gentler pace offers deep emotional recovery."
+      }
+    },
+    "seoul": {
+      "name": "Seoul",
+      "is_start": false,
+      "is_hometown": false,
+      "theme": "Hyper-modern aesthetics, relentless perfectionism, neon nights, high fashion.",
+      "base_attribute_shifts": {"ambition": 15, "burnout": 20, "capital": -10},
+      "signature_items": ["Designer Wear", "Cyber-Key"],
+      "sequence_rules": {
+        "from_saigon": "The urge to prove your success abroad drives you to overwork and adopt an immaculate outer persona.",
+        "from_tokyo": "Moving between two hyper-dense metropolises highlights contrast between Japanese quiet order and Korean raw energy."
+      }
+    },
+    "buenos_aires": {
+      "name": "Buenos Aires",
+      "is_start": false,
+      "is_hometown": false,
+      "theme": "Passion, artistic melancholy, romance, literary cafes, tango, inflation anxiety.",
+      "base_attribute_shifts": {"creativity": 25, "belonging": 15, "capital": -20},
+      "signature_items": ["Vintage Record", "Leather Journal"],
+      "sequence_rules": {
+        "from_san_francisco": "Abandoning tech sanity for South American art creates immediate financial worry paired with sudden emotional liberation.",
+        "from_london": "Stripping away high-society posturing reveals raw, unfiltered human connection."
+      }
+    },
+    "hyderabad": {
+      "name": "Hyderabad",
+      "is_start": false,
+      "is_hometown": false,
+      "theme": "Tech innovation meets royal heritage, spice markets, extended family warmth.",
+      "base_attribute_shifts": {"capital": 10, "belonging": 15, "burnout": 5},
+      "signature_items": ["Biryani Spice Box", "Brass Coin"],
+      "sequence_rules": {
+        "from_san_francisco": "You recognize familiar tech jargon, but here it is deeply intertwined with family obligations and local heritage.",
+        "from_saigon": "The shared Asian focus on family hospitality makes this vibrant city feel like a home away from home."
+      }
+    },
+    "berlin": {
+      "name": "Berlin",
+      "is_start": false,
+      "is_hometown": false,
+      "theme": "Underground counterculture, techno subcultures, anti-establishment, gritty freedom.",
+      "base_attribute_shifts": {"creativity": 30, "ambition": -20, "capital": -15},
+      "signature_items": ["Club Stamp", "Analog Film"],
+      "sequence_rules": {
+        "from_san_francisco": "Complete cultural rejection of Silicon Valley capitalism; corporate speak gets you shut out of creative circles.",
+        "from_seoul": "Shaking off intense perfectionism leads to wild, unfiltered self-expression in dark venues."
+      }
+    },
+    "tokyo": {
+      "name": "Tokyo",
+      "is_start": false,
+      "is_hometown": false,
+      "theme": "Neon isolation, urban serenity, craftsmanship, quiet observational discipline.",
+      "base_attribute_shifts": {"burnout": 10, "creativity": 15, "capital": -10},
+      "signature_items": ["Fountain Pen", "Transit Pass"],
+      "sequence_rules": {
+        "from_buenos_aires": "Moving from passionate chaos into hyper-structured silence creates intense culture shock.",
+        "from_san_francisco": "Workaholic habits translate into deep respect for Japanese craft and attention to detail."
+      }
+    },
+    "london": {
+      "name": "London",
+      "is_start": false,
+      "is_hometown": false,
+      "theme": "Legacy wealth, global power, rain-slicked streets, institutional prestige.",
+      "base_attribute_shifts": {"capital": 25, "ambition": 15, "belonging": -10},
+      "signature_items": ["Tailored Coat", "Private Club Card"],
+      "sequence_rules": {
+        "from_saigon": "Achieving elite status in a global capital exposes the distance between your current life and your humble roots.",
+        "from_berlin": "Putting on a suit and returning to structured corporate life feels like wearing a mask."
+      }
+    }
+  }
+}
